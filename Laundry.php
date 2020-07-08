@@ -4,6 +4,7 @@ class Laundry extends CI_Controller
 {
 	public function index()
 	{
+		[DATA]
 		$this->template->load('template');
 	}
 }
