@@ -4,7 +4,7 @@ class Laundry extends CI_Controller
 {
 	public function index()
 	{
-		[DATA]
+		$data['row'] = $this->laundry_m->post();
 		$this->template->load('template');
 	}
 }
