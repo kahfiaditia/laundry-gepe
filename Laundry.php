@@ -11,4 +11,9 @@ class Laundry extends CI_Controller
 	{
 		$this->template->load('template');
 	}
+	
+	public function edit()
+	{
+		$this->template->load('template');
+	}
 }
