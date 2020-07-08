@@ -7,4 +7,8 @@ class Laundry extends CI_Controller
 		$data['row'] = $this->laundry_m->post();
 		$this->template->load('template');
 	}
+	public function add()
+	{
+		$this->template->load('template');
+	}
 }
